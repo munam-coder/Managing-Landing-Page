@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Be Vietnam Pro";
+}
+
+.navassets {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+
+
+}
+
+.logo {
+    margin-left: 9vw;
+}
+
+
+ul {
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+
+ul li:hover {
+
+    color: hsl(227, 12%, 61%);
+}
+
+ul li {
+    list-style: none;
+    font-weight: 500;
+}
+
+.btnnav {
+    position: sticky;
+    height: 33px;
+    width: 110px;
+    border-radius: 999px;
+    padding-top: 11px;
+    margin-right: 9vw;
+    background-color: hsl(12, 88%, 59%);
+
+    text-align: center;
+    vertical-align: middle;
+    z-index: 5;
+}
+
+.btnnav button {
+    color: hsl(0, 0%, 98%);
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.btnnav:hover {
+    opacity: 0.5;
+}
+
+.backgroundprint {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.backgroundimage1 {
+    position: absolute;
+    z-index: 1;
+    margin-right: -5vw;
+    transform: translateY(-12rem);
+    height: auto;
+    width: 40%
+}
+
+.hook {
+    display: flex;
+    gap: 12rem;
+    padding-top: 7rem;
+    margin-left: 9vw;
+    transform: translateY(-rem);
+
+}
+
+.hook h1 {
+    color: hsl(228, 39%, 23%);
+    line-height: 51px;
+    font-size: 3rem;
+}
+
+.hook p {
+    color: hsl(227, 12%, 61%);
+    padding-top: 1.5rem;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.btnhook {
+    position: sticky;
+    height: 33px;
+    width: 110px;
+    background-color: hsl(12, 88%, 59%);
+    padding-top: 11px;
+    border-radius: 999px;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 5;
+    margin-top: 1.3rem;
+
+}
+
+.hook button {
+    color: hsl(0, 0%, 98%);
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-top: -0.7rem
+}
+
+.btnhook:hover {
+    opacity: 0.5;
+}
+
+.introillustration {
+    position: relative;
+    z-index: 999;
+    transform: translateY(-57px);
+
+}
+
+.illustrationimg {
+    height: auto;
+    width: 30rem;
+}
+
+
+.rightpara {
+    margin-left: 9vw;
+}
+
+.rightpara h1 {
+    color: hsl(228, 39%, 23%);
+    font-size: 2rem;
+}
+
+.rightpara p {
+    color: hsl(227, 12%, 61%);
+    ;
+    padding-top: 1.5rem;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.difference {
+    display: flex;
+    gap: 12rem;
+
+}
+
+.expertisebox {
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.numbox {
+
+    padding-top: 8px;
+    height: 24px;
+    width: 70px;
+    text-align: center;
+    border-radius: 999px;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    font-weight: 500;
+}
+
+.expertisebox h4 {
+    padding-top: 8px;
+    color: hsl(228, 39%, 23%);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.expertisebox p {
+    color: hsl(227, 12%, 61%);
+    margin-top: 1.5rem;
+    line-height: 25px;
+}
+
+.expertisebox2 {
+    display: flex;
+    gap: 30px;
+    padding-top: 31px;
+}
+
+.expertisebox2 h4 {
+    padding-top: 8px;
+    color: hsl(228, 39%, 23%);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.expertisebox2 p {
+    color: hsl(227, 12%, 61%);
+    margin-top: 1.5rem;
+    line-height: 25px;
+}
+
+.expertisebox3 {
+    display: flex;
+    gap: 30px;
+    padding-top: 31px;
+}
+
+
+.expertisebox3 h4 {
+    padding-top: 8px;
+    color: hsl(228, 39%, 23%);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.expertisebox3 p {
+    color: hsl(227, 12%, 61%);
+    margin-top: 1.5rem;
+    line-height: 25px;
+}
