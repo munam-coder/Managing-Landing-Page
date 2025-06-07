@@ -23,7 +23,7 @@ ul {
     cursor: pointer;
 }
 
-ul li:hover {
+.navul li:hover {
 
     color: hsl(227, 12%, 61%);
 }
@@ -58,6 +58,38 @@ ul li {
 .btnnav:hover {
     opacity: 0.5;
 }
+
+.hamnav{
+    display: none;
+}
+.hamnav{
+    border: none;
+    background: none;
+}
+
+.mobilemenu{
+ transform: translateY(50px);
+    height: 24vh;
+    width: 60vw;
+    background-color: hsl(0, 0%, 98%);
+
+}
+.mobilemenu a{
+    color: hsl(228, 39%, 23%);
+}
+.mobilemenu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px ;
+    text-align: center;
+  
+}
+
+.mobilemenu button{
+    border: none;
+    background: none;
+}
+
 
 .backgroundprint {
     display: flex;
@@ -312,8 +344,6 @@ ul li {
     border-radius: 999px;
     text-align: center;
     vertical-align: middle;
-
-
     margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
@@ -387,6 +417,156 @@ ul li {
 
 }
 
-.simplifybtn:hover {
+.simplifybtn:hover button {
     color: hsl(13, 100%, 96%);
+}
+
+
+.theend {
+    position: relative;
+    z-index: 66;
+    height: 40vh;
+    width: 100%;
+    background-color: hsl(233, 12%, 13%);
+}
+
+
+.footerlogo {
+    padding-top: 0vh;
+    margin-left: 14vw;
+
+
+}
+
+.footerimg {
+    height: 25vh;
+    width: auto;
+
+}
+
+
+
+.allappicons {
+   display: flex;
+    gap: 0.9vw;
+    margin-left: 16vw;
+    padding-top: 4vh;
+    filter: brightness(0) invert(1); /* white icons by default */
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+
+.footerullist{
+   margin-left: 35vw;
+    transform: translateY(-23vh);
+    
+}
+
+
+.footerullist ul{
+    display: flex;
+  flex-direction: column;
+  gap: 3.5vh;
+  color:  hsl(0, 0%, 98%);;
+
+}
+
+.footerullist ul li{
+    font-weight: 400;
+
+}
+
+.footerullist li:hover{
+    color: hsl(12, 88%, 59%) ;
+}
+
+.secondfooterlist{
+     margin-left: 52vw;
+     transform: translateY(-47.5vh);
+}
+
+.secondfooterlist ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vh;
+     color:  hsl(0, 0%, 98%);
+     font-weight: 400;
+
+}
+
+.secondfooterlist li:hover{
+    color: hsl(12, 88%, 59%) ;
+}
+
+.secondfooterlist li{
+    font-weight: 400;
+}
+
+.footerform{
+    display: flex;
+    gap: 1.2vw;   
+    margin-left: 73%;
+    transform: translateY(-65.5vh);
+}
+
+.footerform input {
+    width: 16vw;
+    
+    border-radius: 999px;
+    border: none;
+  
+}
+
+.footerform ::placeholder{
+    font-size: 12px;
+   padding-right: 20px;
+    text-align: center;
+}
+
+.footerform button{
+    background-color: hsl(12, 88%, 59%) ; 
+    color: hsl(0, 0%, 98%); 
+    height: 39px;
+    width: 64px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+}
+
+.footerform button:hover{
+    background-color: hsl(12, 69%, 64%) ;
+}
+
+@media (max-width :600px) {
+    .mainlogo{
+        height: auto;
+        width: 20vw;
+        transform: translateY(-42px);
+
+           }
+    .navul{
+        display: none;
+    }
+
+    .btnnav{
+        display: none;
+    }
+
+    .hamnav{
+        display: block;
+       height: 20px;
+       margin-right: 5vw;
+      
+     
+    }
+    .hamnavigation{
+     transform: translateX(32vw);   
+      background: none;
+       border: none;
+    }
+
+
+
+
 }
