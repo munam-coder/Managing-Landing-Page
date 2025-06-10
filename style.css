@@ -560,7 +560,7 @@ ul li {
     .backgroundimage1 {
         position: absolute;
         z-index: 1;
-        margin-right: -95vw;
+        margin-right: -120vw;
         transform: translateY(-14rem);
         height: auto;
         width: 165%;
@@ -580,7 +580,7 @@ ul li {
     .hamnavigation {
         position: relative;
         z-index: 999;
-        transform: translateX(84vw);
+        transform: translateX(102vw);
         ;
         background: none;
         border: none;
@@ -639,7 +639,7 @@ ul li {
     }
 
     .illustrationimg {
-        transform: translateX(2%);
+        transform: translateX(10%);
         height: auto;
         width: 43rem;
 
@@ -660,17 +660,19 @@ ul li {
         position: relative;
         z-index: 999;
         text-align: center;
-        transform: translateX(40%);
+        transform: translateX(55%);
 
 
     }
 
     .hook p {
+                z-index: 6;
+        position: relative;
         color: hsl(227, 12%, 61%);
         padding-top: 1.5rem;
         font-size: 20px;
         line-height: 28px;
-        transform: translateX(40%);
+        transform: translateX(55%);
         text-align: center;
     }
 
@@ -685,7 +687,7 @@ ul li {
         vertical-align: middle;
         z-index: 5;
         margin-top: 2.3rem;
-        transform: translateX(233%);
+        transform: translateX(285%);
 
     }
  .backgroundpattern2{
@@ -697,15 +699,42 @@ ul li {
     position: absolute;
         z-index: 1;
         margin-right: -95vw;
-        transform: translateY(-14rem);
+        transform: translateY(-31rem);
      
  }
 
+
  .imageillustrationmob{
-    transform: translateX(206%);
+   
+    margin-left: 129vw;
         height: auto;
-        width: 18rem;
+        width: 38rem;
  }
+
+ .difference{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-20vh);
+ }
+
+ .rightpara h1{
+    text-align: center;
+     transform: translateX(55%);
+     font-size: 11vw;
+ }
+
+ .rightpara p{
+    text-align: center;
+     transform: translateX(55%);
+     font-size: 4vw;
+ }
+
+ .leftpara{
+      /* bad mai karenge  */
+ 
+ }
+
+
 
 
 }
