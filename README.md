@@ -26,10 +26,10 @@ This project is a modern, responsive landing page crafted with HTML and CSS, des
 
 _Add your project screenshots or demo images here to showcase the landing page design and features!_
 
-![Landing Page desktop](![desktop-design](https://github.com/user-attachments/assets/45be3664-c45a-4f78-9b7a-1301655b5d71)
+![Landing Page desktop](https://github.com/user-attachments/assets/45be3664-c45a-4f78-9b7a-1301655b5d71)
 )
-![Landing Page mobile](![mobile-design](https://github.com/user-attachments/assets/b6304ab4-2ea8-4b21-be41-a9fe5ec654e0)
-)
+![Landing Page mobile](https://github.com/user-attachments/assets/b6304ab4-2ea8-4b21-be41-a9fe5ec654e0)
+
 
 ---
 
