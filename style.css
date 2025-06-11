@@ -348,9 +348,10 @@ ul li {
 
 }
 
-.testimonialbtnmob{
+.testimonialbtnmob {
     display: none;
 }
+
 .testimonialbtn button {
     color: hsl(0, 0%, 98%);
     font-weight: 500;
@@ -766,7 +767,7 @@ ul li {
 
     .orangemobbox {
         margin-top: 2px;
-      margin-left: -6vw;
+        margin-left: -6vw;
         text-align: center;
         padding-left: -2vw;
         border-radius: 999px;
@@ -779,7 +780,7 @@ ul li {
 
     .expertisebox3 h4 {
         font-size: 16px;
-      padding-top: 1vw;
+        padding-top: 1vw;
     }
 
     .expertisebox p,
@@ -793,8 +794,9 @@ ul li {
         right: 27%;
         bottom: 1vh;
     }
-    .firsttestimonial.active{
-    display: block;
+
+    .firsttestimonial.active {
+        display: block;
         position: relative;
         left: 10%;
         margin-top: 10vh;
@@ -803,9 +805,9 @@ ul li {
         background-color: hsl(0, 0%, 98%);
     }
 
-    .firsttestimonial{
+    .firsttestimonial {
         display: none;
-          position: relative;
+        position: relative;
         left: 10%;
         margin-top: 10vh;
         height: 24vh;
@@ -813,17 +815,115 @@ ul li {
         background-color: hsl(0, 0%, 98%);
     }
 
-    .firsttestimonial.active p{
-        font-size: 14px ;
+    .firsttestimonial.active p {
+        font-size: 14px;
     }
 
-    .dot{
+    .testimonialbtnmob {
         display: block;
-        height: 3px;
-        width: 4px;
-        border-radius: 999px;
-        border-color: hsl(12, 88%, 59%) ;
+        display: flex;
+        gap: 10px;
+        padding-top: 3vh;
+        margin-left: 41%;
+    }
 
+    .dot.active {
+        background-color: hsl(12, 88%, 59%);
+    }
+
+    .dot {
+        position: relative;
+        z-index: 999;
+        display: block;
+        height: 12px;
+        width: 12px;
+        border: none;
+        border: 2px solid hsl(12, 88%, 59%);
+        background-color: #ffffff50;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 50%;
+    }
+
+    .desktoppattern {
+        display: none;
+    }
+
+
+    .hookfirstcont {
+        margin-top: 5vh;
+        height: 42vh;
+        width: 100%;
+        background-color: hsl(12, 88%, 59%);
+    }
+
+    .hookfirstcont h1 {
+        color: hsl(0, 0%, 98%);
+        font-weight: 600;
+        margin-left: -6vw;
+        transform: translateY(85%);
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .simplifybtn {
+        margin-top: 13vh;
+        position: relative;
+        height: 33px;
+        width: 130px;
+        background-color: hsl(0, 0%, 98%);
+        border-radius: 999px;
+        text-align: center;
+        padding-top: 11px;
+        margin-left: 30%;
+        transform: translateY(42%);
+    }
+
+    .mobilepattern {
+        position: relative;
+        bottom: 26vh;
+    }
+
+    .theend {
+    position: relative;
+    z-index: 66;
+    min-height: 60vh;
+    width: 100%;
+    background-color: hsl(233, 12%, 13%);
+}
+
+    .footerform {
+        display: flex;
+        gap: 1.2vw;
+        margin-left: 5vw;
+        transform: translateY(-61.5vh);
+    }
+    .footerform button {
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+    height: 39px;
+    width: 84px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+}
+
+    .footerform input {
+        width: 60vw;
+        border-radius: 999px;
+        border: none;
+    }
+
+    .footerullist {
+        position: relative;
+        margin-left: 35vw;
+        bottom: -6vh ;
+        /* transform: translateY(-18vh); */
+    }
+
+    .secondfooterlist {
+        margin-left: 52vw;
+        transform: translateY(-36.5vh);
     }
 
 
